@@ -4,12 +4,19 @@
   "description": "a project with session based auth",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "author": "kossuthl4jos",
   "license": "ISC",
   "dependencies": {
     "@oslojs/crypto": "^1.0.1",
-    "@oslojs/encoding": "^1.1.0"
+    "@oslojs/encoding": "^1.1.0",
+    "next": "^15.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   }
 }
