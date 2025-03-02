@@ -1,0 +1,15 @@
+{
+  "name": "session-auth",
+  "version": "1.0.0",
+  "description": "a project with session based auth",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "kossuthl4jos",
+  "license": "ISC",
+  "dependencies": {
+    "@oslojs/crypto": "^1.0.1",
+    "@oslojs/encoding": "^1.1.0"
+  }
+}
